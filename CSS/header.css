@@ -5,6 +5,7 @@ header {
   justify-content: space-between;/*a propiedade justify content defini como os itens serão alinhados ao longo do eixo principal x */
   align-items: center; /*a propiedade aling itens define como os itens serão alinhados ao longo do eixo y*/
   padding: 38px 48px;
+  position: relative;
 }
 
 .compass_logo {
@@ -18,10 +19,35 @@ header {
   display: block;
 }
 
-input[type="checkbox"]:checked~nav{
-  display: block;
-}
-
 nav{
   display: none;
+
+}
+
+input[type="checkbox"]:checked~nav{
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 100%;
+  background-color: var(--brackground_tertiary_color);
+
+}
+
+.list_link li {
+  list-style: none;
+  margin: 16px;
+}
+.list_link li a{
+  color: var(--text_secondary_color);
+  margin:16px ;
+
+}
+
+.list_link li a {
+  text-decoration: none; /* Remove o sublinhado */
+}
+
+header a:hover{
+  color:var(--primary_color)
 }

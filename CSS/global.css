@@ -26,6 +26,10 @@
   box-sizing: border-box;
 }
 
+body{
+    font-family: "Montserrat",Arial, Helvetica, sans-serif;
+}
+
 h1 {
   font-family: "Montserrat";
   font-weight: var(--titles_weigth);
