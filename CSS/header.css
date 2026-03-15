@@ -1,9 +1,9 @@
 header {
   background-color: var(--brackground_tertiary_color);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  display: flex; /*torna o tipo do display do header em flex*/
+  flex-direction: row; /*como vai ser feita a ordenação flex dos intens detro do header*/
+  justify-content: space-between;/*a propiedade justify content defini como os itens serão alinhados ao longo do eixo principal x */
+  align-items: center; /*a propiedade aling itens define como os itens serão alinhados ao longo do eixo y*/
   padding: 38px 48px;
 }
 
@@ -15,6 +15,10 @@ header {
 .compass_logo img {
   height: 64px;
   width: 68px;
+  display: block;
+}
+
+input[type="checkbox"]:checked~nav{
   display: block;
 }
 
