@@ -2,7 +2,7 @@ header {
   background-color: var(--brackground_tertiary_color);
   display: flex; /*torna o tipo do display do header em flex*/
   flex-direction: row; /*como vai ser feita a ordenação flex dos intens detro do header*/
-  justify-content: space-between;/*a propiedade justify content defini como os itens serão alinhados ao longo do eixo principal x */
+  justify-content: space-between; /*a propiedade justify content defini como os itens serão alinhados ao longo do eixo principal x */
   align-items: center; /*a propiedade aling itens define como os itens serão alinhados ao longo do eixo y*/
   padding: 38px 48px;
   position: relative;
@@ -10,52 +10,50 @@ header {
 
 .compass_logo {
   display: inline-block;
-
 }
 
-.compass_logo img {
+.compass_logo .mobile_logo {
   height: 64px;
   width: 68px;
   display: block;
 }
 
-.navigation_menu nav{
+.compass_logo .desktop_logo {
+  height: 64px;
+  width: 260px;
   display: none;
-
 }
 
-.navigation_menu input[type="checkbox"]:checked~nav{
+.navigation_menu nav {
+  display: none;
+}
+
+.navigation_menu input[type="checkbox"]:checked ~ nav {
   display: block;
   position: absolute;
   top: 100%;
   left: 0px;
   width: 100%;
   background-color: var(--brackground_tertiary_color);
-
 }
 
 .list_link li {
   list-style: none;
   margin: 16px;
 }
-.list_link li a{
+.list_link li a {
   color: var(--text_secondary_color);
-  margin:16px ;
-
+  margin: 16px;
 }
 
 .list_link li a {
   text-decoration: none; /* Remove o sublinhado */
 }
 
-.navigation_menu a:hover{
-  color:var(--primary_color)
-}
-
 /* tablet settings */
-@media screen and (min-width: 768px){
-  header{
-    padding: 54.5px 60px;
+@media screen and (min-width: 768px) {
+  header {
+    padding: 38px 60px;
   }
 
   .navigation_menu label {
@@ -69,13 +67,38 @@ header {
 
     width: 476px;
   }
-  .navigation_menu ul li{
+  .navigation_menu ul li {
     font-size: 24px;
     margin: 0;
   }
 
-  .navigation_menu ul li a{
-  white-space: nowrap;
+  .navigation_menu ul li a {
+    white-space: nowrap;
+  }
 }
-  
+
+/*sestings desktop*/
+
+@media screen and (min-width: 1440px) {
+  header {
+    padding: 38px 120px;
+  }
+
+  .compass_logo .desktop_logo {
+    display: block;
+  }
+
+  .compass_logo .mobile_logo {
+    display: none;
+  }
+
+  .navigation_menu a:hover {
+    color: var(--primary_color);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  header {
+    padding: 38px 160px;
+  }
 }
