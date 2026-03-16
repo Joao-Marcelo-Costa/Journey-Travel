@@ -19,12 +19,12 @@ header {
   display: block;
 }
 
-nav{
+.navigation_menu nav{
   display: none;
 
 }
 
-input[type="checkbox"]:checked~nav{
+.navigation_menu input[type="checkbox"]:checked~nav{
   display: block;
   position: absolute;
   top: 100%;
@@ -48,6 +48,34 @@ input[type="checkbox"]:checked~nav{
   text-decoration: none; /* Remove o sublinhado */
 }
 
-header a:hover{
+.navigation_menu a:hover{
   color:var(--primary_color)
+}
+
+/* tablet settings */
+@media screen and (min-width: 768px){
+  header{
+    padding: 54.5px 60px;
+  }
+
+  .navigation_menu label {
+    display: none;
+  }
+  .navigation_menu nav {
+    display: block;
+  }
+  .navigation_menu ul {
+    display: flex; /*torna o tipo do display do header em flex*/
+
+    width: 476px;
+  }
+  .navigation_menu ul li{
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .navigation_menu ul li a{
+  white-space: nowrap;
+}
+  
 }
