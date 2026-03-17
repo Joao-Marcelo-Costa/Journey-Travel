@@ -1,7 +1,7 @@
 .hero div{
     display: block;
     width: 100%;
-    height: 620px;
+    height: 400px;
     background: url(../img/Mobile/1-Homepage/Banner-homepage.png) no-repeat;
     background-size: cover;
 }
@@ -9,8 +9,41 @@
 .hero h2{
     font-family: "Montserrat";
     font-weight: var(--menu_text_weigth);
+    font-size: 20px;
+    text-align: center;
+    width: 312px;
+    margin: 88px auto;
 }
 
+/* tablet style */
 @media screen and (min-width:768px) {
-        
+    .hero div{
+        display: block;
+        width: 100%;
+        height: 620px;
+        background: url(../img/Tablet/1-Homepage/banner-tablet-optimized.png) no-repeat;
+        background-size: cover;
+    }
+
+    .hero h2{
+        font-size: 32px;
+        width: 648px;
+    }
+}
+
+/* desktop style */
+@media screen and (min-width:768px) {
+    .hero div{
+        display: block;
+        width: 100%;
+        height: 620px;
+        background: url(/img/Desktop/1-Homepage/banner_scale_optimized.png) no-repeat;
+        background-size: cover;
+    }
+
+    .hero h2{
+        font-size: 32px;
+        width: 1200px;
+        margin: 104px auto;
+    }
 }
