@@ -32,12 +32,28 @@
 }
 
 /* desktop style */
-@media screen and (min-width:768px) {
+@media screen and (min-width:1440px) {
     .hero div{
         display: block;
         width: 100%;
         height: 620px;
         background: url(/img/Desktop/1-Homepage/banner_scale_optimized.png) no-repeat;
+        background-size: cover;
+    }
+
+    .hero h2{
+        font-size: 32px;
+        width: 1200px;
+        margin: 104px auto;
+    }
+}
+
+@media screen and (min-width:1990px) {
+    .hero div{
+        display: block;
+        width: 100%;
+        height: 620px;
+        background: url(/img/Desktop_Large/1-Homepage/banner.png) no-repeat;
         background-size: cover;
     }
 
