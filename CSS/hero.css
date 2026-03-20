@@ -12,7 +12,7 @@
     font-size: 20px;
     text-align: center;
     width: 312px;
-    margin: 88px auto;
+    margin: 88px auto 0 auto;
 }
 
 /* tablet style */
@@ -44,7 +44,7 @@
     .hero h2{
         font-size: 32px;
         width: 1200px;
-        margin: 104px auto;
+        margin: 104px auto 0 auto;
     }
 }
 
@@ -60,6 +60,6 @@
     .hero h2{
         font-size: 32px;
         width: 1200px;
-        margin: 104px auto;
+        margin: 104px auto 0 auto;
     }
 }
