@@ -1,4 +1,4 @@
-header {
+.main_header {
   background-color: var(--brackground_tertiary_color);
   display: flex; /*torna o tipo do display do header em flex*/
   flex-direction: row; /*como vai ser feita a ordenação flex dos intens detro do header*/
@@ -52,7 +52,7 @@ header {
 
 /* tablet settings */
 @media screen and (min-width: 768px) {
-  header {
+  .main_header {
     padding: 38px 60px;
   }
 
@@ -80,7 +80,7 @@ header {
 /*sestings desktop*/
 
 @media screen and (min-width: 1440px) {
-  header {
+  .main_header {
     padding: 38px 120px;
   }
 
@@ -98,7 +98,7 @@ header {
 }
 
 @media screen and (min-width: 1920px) {
-  header {
+  .main_header {
     padding: 38px 160px;
   }
 }
