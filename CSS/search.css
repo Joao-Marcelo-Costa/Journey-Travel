@@ -1,0 +1,33 @@
+.search_category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.search_category article a{
+    text-decoration: none;
+    width: 312px;
+    height:220px;
+}
+.search_category article{
+    width: 312px;
+    height:220px;
+    background-color: var(--background_secondary_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.search_category img{
+    display: block;
+    margin: 41px auto 24px;
+}
+.search_category article h4{
+  font-weight:var(--titles_weigth) ;
+  margin:0 auto 41px;
+  width: 100%;
+  text-align: center;
+  color: var(--text_primary_color);
+  font-size: 28px;
+  
+}
