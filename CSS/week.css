@@ -1,0 +1,106 @@
+.week_offers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.week_offers article{
+    width: 312px;
+    height: 288px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px ;
+
+}
+.week_offers article header{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 24px;
+    gap: 8px;
+}
+.week_offers article footer{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 24px;
+}
+.week_offers article p{
+    font-weight:var(--menu_text_weigth) ;
+    text-align: center;
+    color: var(--text_secondary_color);
+}
+
+.week_offers article h2, .week_offers article h3, .week_offers article a{
+    font-weight:var(--titles_weigth) ;
+    text-align: center;
+    color: var(--text_secondary_color);
+}
+.week_offers article p{
+    font-size: 20px;
+}
+
+.week_offers article h2{
+    font-size: 40px;
+}
+
+.week_offers article h3{
+    font-size: 36px;
+}
+
+.week_offers article a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 64px;
+    background-color: var(--secondary_color);
+    border-radius: 8px;
+    
+}
+.japan{
+    background-image: url(/img/Mobile/1-Homepage/Japão.png);
+}
+.san_andreas{
+    background-image: url(/img/Mobile/1-Homepage/San_Andreas.png);
+}
+.paraiba{
+    background-image: url(/img/Mobile/1-Homepage/Paraíba.png);
+}
+.manaus{
+    background-image: url(/img/Mobile/1-Homepage/Manaus.png);
+}
+
+@media screen and (min-width:768px){
+    .week_offers{
+        margin: auto;
+        flex-direction:row;
+        flex-wrap: wrap;
+        width: 648px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .week_offers {
+        width: 1200px;
+    }
+    .week_offers article{
+        width: 588px;
+        height: 308px;
+    }
+    .japan{
+        background-image: url(/img/Desktop/1-Homepage/Japão_scaled_opitimized.png);
+    }
+    .san_andreas{
+        background-image: url(/img/desktop/1-Homepage/San_Andreas_scale_optimized.png);
+    }
+    .paraiba{
+        background-image: url(/img/Desktop/1-Homepage/Paraíba_scale_optmized.png);
+    }
+    .manaus{
+        background-image: url(/img/Desktop/1-Homepage/Manaus_scale_optmized.png);
+    }
+}
