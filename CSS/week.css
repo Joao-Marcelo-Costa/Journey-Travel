@@ -73,3 +73,34 @@
 .manaus{
     background-image: url(/img/Mobile/1-Homepage/Manaus.png);
 }
+
+@media screen and (min-width:768px){
+    .week_offers{
+        margin: auto;
+        flex-direction:row;
+        flex-wrap: wrap;
+        width: 648px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .week_offers {
+        width: 1200px;
+    }
+    .week_offers article{
+        width: 588px;
+        height: 308px;
+    }
+    .japan{
+        background-image: url(/img/Desktop/1-Homepage/Japão_scaled_opitimized.png);
+    }
+    .san_andreas{
+        background-image: url(/img/desktop/1-Homepage/San_Andreas_scale_optimized.png);
+    }
+    .paraiba{
+        background-image: url(/img/Desktop/1-Homepage/Paraíba_scale_optmized.png);
+    }
+    .manaus{
+        background-image: url(/img/Desktop/1-Homepage/Manaus_scale_optmized.png);
+    }
+}
