@@ -59,6 +59,10 @@ body{
     height: 64px;
     background-color: var(--secondary_color);
     border-radius: 8px;
+    font-size: 20px;
+    font-weight:var(--titles_weigth) ;
+    text-align: center;
+    color: var(--text_secondary_color);
     
 }
 
