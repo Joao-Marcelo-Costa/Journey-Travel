@@ -18,18 +18,26 @@
     align-items: center;
     border-radius: 8px;
 }
-.search_category img{
+.search_category article a .image_box{
     display: block;
     margin: 41px auto 24px;
 }
 .search_category article h4{
   font-weight:var(--titles_weigth) ;
   margin:0 auto 41px;
-  width: 100%;
+  width: 80%;
   text-align: center;
   color: var(--text_primary_color);
   font-size: 28px;
   
+}
+
+.search_category article a .image_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
 }
 
 @media screen and (min-width:768px){
