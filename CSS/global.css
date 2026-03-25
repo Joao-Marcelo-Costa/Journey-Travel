@@ -50,6 +50,21 @@ body{
   margin: auto;
 
 }
+.button{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 64px;
+    background-color: var(--secondary_color);
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight:var(--titles_weigth) ;
+    text-align: center;
+    color: var(--text_secondary_color);
+    
+}
 
 @media screen and (min-width:768px) {
   .division h3{
