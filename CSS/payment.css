@@ -1,4 +1,44 @@
-.payment{
-    display: flex;
-    
+.payment_text_content{
+    width: 312px;
+    margin: auto;
+}
+.payment_text_content h4{
+    font-size: 28px;
+    margin-bottom: 24px;
+    text-align: left;
+}
+.payment_text_content p{
+    font-size: 20px;
+    text-align: left;
+    height: 160px;
+    line-height: 32px;
+}
+.payment_image_content{
+    width: 312px;
+    display: grid;
+    grid-template-columns: 144px 144px;
+    grid-template-areas: ".payment_text_content .payment_text_content ";
+    row-gap: 24px ;
+    column-gap: 24px;
+    margin: 24px auto 0;
+}
+.payment_image_content div{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.payment_image_box1{
+    width: 312px;
+    height: 182px;
+    grid-column:span 2; /*faz este elemento do grid ocupar duas counas */
+    background-image: url(/img/Mobile/1-Homepage/payment_montage_image_1.png);
+}
+.payment_image_box2{
+    width: 144px;
+    height: 254px;
+    background-image: url(/img/Mobile/1-Homepage/payment_montage_image_2.png);
+}
+.payment_image_box3{
+    width: 144px;
+    height: 254px;
+    background-image: url(/img/Mobile/1-Homepage/payment_montage_image_3.png);
 }
