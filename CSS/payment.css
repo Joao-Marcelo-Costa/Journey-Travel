@@ -1,7 +1,8 @@
-.payment_text_content{
+.payment {
     width: 312px;
     margin: auto;
 }
+
 .payment_text_content h4{
     font-size: 28px;
     margin-bottom: 24px;
@@ -10,35 +11,74 @@
 .payment_text_content p{
     font-size: 20px;
     text-align: left;
-    height: 160px;
+
     line-height: 32px;
 }
 .payment_image_content{
-    width: 312px;
+
     display: grid;
     grid-template-columns: 144px 144px;
+    grid-template-rows: 254px 254px;
     grid-template-areas: ".payment_text_content .payment_text_content ";
     row-gap: 24px ;
     column-gap: 24px;
-    margin: 24px auto 0;
+    margin: 24px 0 0;
+    place-items: stretch;
 }
 .payment_image_content div{
     background-size: contain;
     background-repeat: no-repeat;
 }
 .payment_image_box1{
-    width: 312px;
-    height: 182px;
     grid-column:span 2; /*faz este elemento do grid ocupar duas counas */
     background-image: url(/img/Mobile/1-Homepage/payment_montage_image_1.png);
 }
 .payment_image_box2{
-    width: 144px;
-    height: 254px;
     background-image: url(/img/Mobile/1-Homepage/payment_montage_image_2.png);
 }
 .payment_image_box3{
-    width: 144px;
-    height: 254px;
     background-image: url(/img/Mobile/1-Homepage/payment_montage_image_3.png);
+}
+
+/* tablet vizualization sestings */
+@media screen and (min-width:768px) {
+    .payment {
+        width: 648px;
+    }
+    .payment_image_content{
+        grid-template-columns:312px 312px ;
+    }
+    .payment_image_box1{
+        background-image: url(/img/Tablet/1-Homepage/Montagem_japao_opt2.png);
+    }
+    .payment_image_box2{
+        background-image: url(/img/Tablet/1-Homepage/Montagem_japao_opt3.png);
+    }
+    .payment_image_box3{
+        background-image: url(/img/Tablet/1-Homepage/Montagem_japao_opt1.png);
+    }
+}
+
+/* desktop vizualization sestings */
+@media screen and (min-width:1440px) {
+    .payment_article{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .payment {
+        width: 1200px;
+    }
+    .payment_image_content{
+        grid-template-columns:383.5px 383.5px ;
+    }
+    .payment_image_box1{
+        background-image: url(/img/Desktop/1-Homepage/montagem_japao_opt3.png);
+    }
+    .payment_image_box2{
+        background-image: url(/img/Desktop/1-Homepage/montagem_japao_opt1.png);
+    }
+    .payment_image_box3{
+        background-image: url(/img/Desktop/1-Homepage/montagem_japao_opt2.png);
+    }
 }
