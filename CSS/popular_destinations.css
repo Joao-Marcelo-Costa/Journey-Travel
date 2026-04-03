@@ -33,6 +33,7 @@
 .itens_footer p {
   font-weight: var(--menu_text_weigth);
   font-size: 20px;
+  text-align: left;
 }
 
 .itens_footer a {
