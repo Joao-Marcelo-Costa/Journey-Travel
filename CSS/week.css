@@ -51,16 +51,16 @@
 }
 
 .japan{
-    background-image: url(/img/Mobile/1-Homepage/Japão.png);
+    background-image: url(../img/Mobile/1-Homepage/Japão.png);
 }
 .san_andreas{
-    background-image: url(/img/Mobile/1-Homepage/San_Andreas.png);
+    background-image: url(../img/Mobile/1-Homepage/San_Andreas.png);
 }
 .paraiba{
-    background-image: url(/img/Mobile/1-Homepage/Paraíba.png);
+    background-image: url(../img/Mobile/1-Homepage/Paraíba.png);
 }
 .manaus{
-    background-image: url(/img/Mobile/1-Homepage/Manaus.png);
+    background-image: url(../img/Mobile/1-Homepage/Manaus.png);
 }
 
 @media screen and (min-width:768px){
@@ -81,15 +81,15 @@
         height: 308px;
     }
     .japan{
-        background-image: url(/img/Desktop/1-Homepage/Japão_scaled_opitimized.png);
+        background-image: url(../img/Desktop/1-Homepage/Japão_scaled_opitimized.png);
     }
     .san_andreas{
-        background-image: url(/img/desktop/1-Homepage/San_Andreas_scale_optimized.png);
+        background-image: url(../img/desktop/1-Homepage/San_Andreas_scale_optimized.png);
     }
     .paraiba{
-        background-image: url(/img/Desktop/1-Homepage/Paraíba_scale_optmized.png);
+        background-image: url(../img/Desktop/1-Homepage/Paraíba_scale_optmized.png);
     }
     .manaus{
-        background-image: url(/img/Desktop/1-Homepage/Manaus_scale_optmized.png);
+        background-image: url(../img/Desktop/1-Homepage/Manaus_scale_optmized.png);
     }
 }

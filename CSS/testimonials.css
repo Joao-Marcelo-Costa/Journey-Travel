@@ -40,19 +40,19 @@
 .testimony_1 .rating_content .image_box_testimony {
     height: 86px;
     width: 86px;
-    background-image: url(/img/Mobile/1-Homepage/Avatar-Talita.png);
+    background-image: url(../img/Mobile/1-Homepage/Avatar-Talita.png);
 }
 
 .testimony_2 .rating_content .image_box_testimony {
     height: 86px;
     width: 86px;
-    background-image: url(/img/Mobile/1-Homepage/Avatar-Amari.png);
+    background-image: url(../img/Mobile/1-Homepage/Avatar-Amari.png);
 }
 
 .testimony_3 .rating_content .image_box_testimony {
     height: 86px;
     width: 86px;
-    background-image: url(/img/Mobile/1-Homepage/Avatar-Lauro.png);
+    background-image: url(../img/Mobile/1-Homepage/Avatar-Lauro.png);
 }
 
 @media screen and (min-width: 768px) {
