@@ -31,13 +31,13 @@
 }
 .payment_image_box1{
     grid-column:span 2; /*faz este elemento do grid ocupar duas counas */
-    background-image: url(/img/Mobile/1-Homepage/payment_montage_image_1.png);
+    background-image: url(../img/Mobile/1-Homepage/payment_montage_image_1.png);
 }
 .payment_image_box2{
-    background-image: url(/img/Mobile/1-Homepage/payment_montage_image_2.png);
+    background-image: url(../img/Mobile/1-Homepage/payment_montage_image_2.png);
 }
 .payment_image_box3{
-    background-image: url(/img/Mobile/1-Homepage/payment_montage_image_3.png);
+    background-image: url(../img/Mobile/1-Homepage/payment_montage_image_3.png);
 }
 
 /* tablet vizualization sestings */
@@ -49,13 +49,13 @@
         grid-template-columns:312px 312px ;
     }
     .payment_image_box1{
-        background-image: url(/img/Tablet/1-Homepage/Montagem_japao_opt2.png);
+        background-image: url(../img/Tablet/1-Homepage/Montagem_japao_opt2.png);
     }
     .payment_image_box2{
-        background-image: url(/img/Tablet/1-Homepage/Montagem_japao_opt3.png);
+        background-image: url(../img/Tablet/1-Homepage/Montagem_japao_opt3.png);
     }
     .payment_image_box3{
-        background-image: url(/img/Tablet/1-Homepage/Montagem_japao_opt1.png);
+        background-image: url(../img/Tablet/1-Homepage/Montagem_japao_opt1.png);
     }
 }
 
@@ -73,12 +73,12 @@
         grid-template-columns:383.5px 383.5px ;
     }
     .payment_image_box1{
-        background-image: url(/img/Desktop/1-Homepage/montagem_japao_opt3.png);
+        background-image: url(../img/Desktop/1-Homepage/montagem_japao_opt3.png);
     }
     .payment_image_box2{
-        background-image: url(/img/Desktop/1-Homepage/montagem_japao_opt1.png);
+        background-image: url(../img/Desktop/1-Homepage/montagem_japao_opt1.png);
     }
     .payment_image_box3{
-        background-image: url(/img/Desktop/1-Homepage/montagem_japao_opt2.png);
+        background-image: url(../img/Desktop/1-Homepage/montagem_japao_opt2.png);
     }
 }

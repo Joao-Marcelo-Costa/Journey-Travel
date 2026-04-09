@@ -37,7 +37,7 @@
         display: block;
         width: 100%;
         height: 620px;
-        background: url(/img/Desktop/1-Homepage/banner_scale_optimized.png) no-repeat;
+        background: url(../img/Desktop/1-Homepage/banner_scale_optimized.png) no-repeat;
         background-size: cover;
     }
 
@@ -53,7 +53,7 @@
         display: block;
         width: 100%;
         height: 620px;
-        background: url(/img/Desktop_Large/1-Homepage/banner.png) no-repeat;
+        background: url(../img/Desktop_Large/1-Homepage/banner.png) no-repeat;
         background-size: cover;
     }
 

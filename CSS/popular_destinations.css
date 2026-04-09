@@ -42,10 +42,10 @@
 }
 
 .tokyo_article header .image_destination {
-  background-image: url(/img/Mobile/1-Homepage/Tokyo_opt.png);
+  background-image: url(../img/Mobile/1-Homepage/Tokyo_opt.png);
 }
 .osaka_article header .image_destination {
-  background-image: url(/img/Mobile/1-Homepage/Osaka_opt.png);
+  background-image: url(../img/Mobile/1-Homepage/Osaka_opt.png);
 }
 
 @media screen and (min-width: 768px) {
@@ -63,10 +63,10 @@
   }
 
   .tokyo_article header .image_destination {
-    background-image: url(/img/Tablet/1-Homepage/Tokyo_opt.png);
+    background-image: url(../img/Tablet/1-Homepage/Tokyo_opt.png);
   }
   .osaka_article header .image_destination {
-    background-image: url(/img/Tablet/1-Homepage/Osaka_opt.png);
+    background-image: url(../img/Tablet/1-Homepage/Osaka_opt.png);
   }
 }
 
@@ -81,9 +81,9 @@
     width: 588px;
   }
   .tokyo_article header .image_destination {
-    background-image: url(/img/Desktop/1-Homepage/Destinos_Tokyo_opt.png);
+    background-image: url(../img/Desktop/1-Homepage/Destinos_Tokyo_opt.png);
   }
   .osaka_article header .image_destination {
-    background-image: url(/img/Desktop/1-Homepage/Destinos_Osaka_opt.png);
+    background-image: url(../img/Desktop/1-Homepage/Destinos_Osaka_opt.png);
   }
 }
