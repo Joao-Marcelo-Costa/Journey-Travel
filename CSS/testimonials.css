@@ -5,15 +5,17 @@
     gap: 32px;
 }
 
-.testimonials_box article p {
+.text_content p {
     font-size: 16px;
     line-height:28px ;
     text-align: left;
     width: 312px;
+    height: 140px;
     margin-bottom: 8px;
  
 }
-.testimonials_box article h5 {
+.testimony_name {
+    font-weight: var(--titles_weigth);
     font-size: 20px;
     text-align: left;
 
@@ -37,27 +39,28 @@
     color: var(--secondary_color);
 }
 
-.testimony_1 .rating_content .image_box_testimony {
+.image_box_testimony1 {
     height: 86px;
     width: 86px;
     background-image: url(../img/Mobile/1-Homepage/Avatar-Talita.png);
 }
 
-.testimony_2 .rating_content .image_box_testimony {
+.image_box_testimony2 {
     height: 86px;
     width: 86px;
     background-image: url(../img/Mobile/1-Homepage/Avatar-Amari.png);
 }
 
-.testimony_3 .rating_content .image_box_testimony {
+.image_box_testimony3 {
     height: 86px;
     width: 86px;
     background-image: url(../img/Mobile/1-Homepage/Avatar-Lauro.png);
 }
 
 @media screen and (min-width: 768px) {
-    .testimonials_box article p {
+    .text_content p {
         width: 648px;
+        height: 84px;
     }
 }
 
@@ -66,7 +69,8 @@
         flex-direction: row;
         justify-content: center;
     }
-    .testimonials_box article p {
+    .text_content p {
         width: 384px;
+        height: 112px;
     }
 }
